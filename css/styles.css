@@ -10,12 +10,35 @@ body {
   background-color: #ffffff;
 }
 
+.container {
+  width: 1128px;
+  padding: 0 15px;
+  margin: 0px;
+  outline: 2px solid red;
+  outline-offset: -2px;
+}
+img {
+  display: block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+}
+
 /**
   |============================
   | Header
   |============================
 */
-
+.nav-header-flex {
+  display: flex;
+}
 .list {
   list-style: none;
 }
@@ -35,14 +58,30 @@ body {
   letter-spacing: 0.02em;
   color: inherit;
 }
-
+.addres-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 0%;
+}
+.header-flex {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+}
 .header-nav {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-
+.header-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-right: 332px;
+  padding: 0px;
+}
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -64,6 +103,10 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+}
+.logo-header {
+  display: flex;
+  margin-right: 76px;
 }
 
 /**
@@ -138,11 +181,15 @@ body {
 .list-background {
   background-color: #ffffff;
 }
-.body-txt {
+.body-txt,
+.body-txt-footer {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.body-txt-footer {
+  color: #f4f4fd;
 }
 .visually-hidden {
   position: absolute;
