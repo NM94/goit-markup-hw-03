@@ -85,6 +85,7 @@ ul {
   align-items: center;
   gap: 40px;
   margin-right: 332px;
+  padding: 0;
 }
 .logo {
   font-family: "Raleway", sans-serif;
