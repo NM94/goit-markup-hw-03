@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-  width: 1128px;
+  width: 1158px;
   padding: 0 15px;
   margin: 0px;
   outline: 2px solid red;
@@ -36,8 +36,12 @@ ul {
   | Header
   |============================
 */
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
 .nav-header-flex {
   display: flex;
+  align-items: center;
 }
 .list {
   list-style: none;
@@ -80,7 +84,7 @@ ul {
   align-items: center;
   gap: 40px;
   margin-right: 332px;
-  padding: 0px;
+  padding: 24px 0;
 }
 .logo {
   font-family: "Raleway", sans-serif;
