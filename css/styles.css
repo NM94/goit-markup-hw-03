@@ -70,7 +70,7 @@ ul {
 }
 .header-flex {
   display: flex;
-  align-items: center;
+  align-items: center
   margin: 0px;
 }
 .header-nav {
@@ -78,13 +78,13 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 .header-nav-list {
   display: flex;
   align-items: center;
   gap: 40px;
   margin-right: 332px;
-  padding: 24px 0;
 }
 .logo {
   font-family: "Raleway", sans-serif;
