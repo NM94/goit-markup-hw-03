@@ -152,7 +152,7 @@ ul {
 }
 .text-section-two,
 .text-section-four {
-  width:calc((100%-72px)/4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 .text-section-four {
   border-radius: 0px 0px 4px 4px;
@@ -223,7 +223,7 @@ ul {
   padding-bottom: 120px;
 }
 .text-section-three {
-  width: calc((100% - 48px) / 3);
+ flex-basis: calc((100% - 48px) / 3); 
 }
 .section-four {
   background-color: #f4f4fd;
