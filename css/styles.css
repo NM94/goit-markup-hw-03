@@ -10,12 +10,16 @@ body {
   background-color: #ffffff;
 }
 
-.container {
+.container,
+.container-test {
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
   outline: 2px solid red;
   outline-offset: -2px;
+}
+.container-test {
+  width: auto;
 }
 img {
   display: block;
@@ -164,7 +168,7 @@ ul {
   flex-basis: calc((100% - 72px) / 4);
 }
 .text-section-two {
-  width: 271px;
+  width: 264px;
 }
 
 .container-list-four,
