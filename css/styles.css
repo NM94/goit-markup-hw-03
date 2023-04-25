@@ -161,13 +161,14 @@ ul {
 .subtitle-section-four {
  text-align: center;
 }
-.text-section-two,
 .text-section-four {
+border-radius: 0px 0px 4px 4px; 
   flex-basis: calc((100% - 72px) / 4);
 }
-.text-section-four {
-  border-radius: 0px 0px 4px 4px;
+.text-section-two {
+  flex-basis: calc((100% - 3 * 24px);
 }
+
 .container-list-four,
 .container-portfolio-card {
   padding: 32px 16px;
