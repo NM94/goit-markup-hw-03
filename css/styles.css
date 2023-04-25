@@ -51,10 +51,11 @@ ul {
   display: flex;
   gap: 24px;
 }
-.list-portfolio {
+.list-portfolio-btn {
   justify-content: center;
   margin-bottom: 72px;
 }
+
 .list-portfolio-card {
   flex-wrap: wrap;
   column-gap: 24px;
@@ -167,8 +168,13 @@ ul {
 .text-section-four {
   border-radius: 0px 0px 4px 4px;
 }
-.container-list-four {
+.container-list-four
+.container-portfolio-card {
   padding: 32px 16px;
+}
+.container-portfolio-card {
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .section-cl-hero {
   background-color: #2e2f42;
