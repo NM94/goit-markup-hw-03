@@ -43,13 +43,23 @@ ul {
   display: flex;
   align-items: center;
 }
-.list
+.list,
+.list-portfolio-btn,
+.list-portfolio-card
  {
   list-style: none;
   display: flex;
   gap: 24px;
 }
-
+.list-portfolio {
+  justify-content: center;
+  margin-bottom: 72px;
+}
+.list-portfolio-card {
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
 .link {
   text-decoration: none;
 }
@@ -205,6 +215,15 @@ ul {
   letter-spacing: 0.04em;
   background-color: #f4f4fd;
   color: #4d5ae5;
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+}
+.btn-portfolio:hover,
+.btn-portfolio:focus {
+    background-color: #404bbf;
+  color: #ffffff;
+border: 1px solid transparent;
 }
 .title-hero {
   font-weight: 700;
@@ -256,6 +275,9 @@ ul {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+.section-portfolio {
+  padding: 96px 0 120px;
 }
 
 /**
