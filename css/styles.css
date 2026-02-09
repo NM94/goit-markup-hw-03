@@ -6,6 +6,7 @@
     --main-hover-cl: #404bbf;
     --white-cl: #ffffff;
     --cloud-cl: #f4f4fd;
+    --border-cl: #e7e9fc;
     
 }
 
@@ -52,8 +53,8 @@ button {
 
 .container {
     max-width: 1158px;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -83,7 +84,6 @@ button {
 .small-font {
     line-height: 1.50;
     letter-spacing: 0.02em;
-    margin-top: 8px;
 }
 
 .title-bold {
@@ -103,6 +103,7 @@ button {
     line-height: 1.20;
     letter-spacing: 0.02em;
     color: var(--secondary-cl);
+    margin-bottom: 8px;
 }
 
 .sections {
@@ -129,14 +130,17 @@ button {
 /* ===================== HEADER STYLES ===================== */
 
 .page-header {
-    margin-bottom: 3px;
+    border-bottom: 1px solid var(--border-cl);
 }
+
+.logo-header {
+    margin-right: 76px
+}
+
 .page-navigation {
     display: flex;
     align-items: center;
     margin-right: auto;
-    gap: 76px;
-
 }
 
 .menu {
@@ -172,7 +176,6 @@ button {
     display: block;
     padding-top: 24px;
     padding-bottom: 24px;
-    margin-top: 0;
 }
 
 .address-menu-link:hover,
@@ -210,7 +213,7 @@ button {
     text-align: center;
     border: none;
     border-radius: 4px;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
 
 }
@@ -222,7 +225,7 @@ button {
 /* ===================== FEATURE STYLES ===================== */
 .feature-list {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
 }
 
 .feature-item {
@@ -242,13 +245,13 @@ button {
 
 .team-list {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
 }
 
 .team-item {
     background-color: var(--white-cl);
     width: calc((100% - 3 * 24px) / 4);
-    border-radius: 0 0 4px 4px
+    border-radius: 0 0 4px 4px;
 }
 
 .team-second-title {
@@ -259,6 +262,10 @@ button {
     text-align: center;
 }
 
+.team-container {
+    padding-left: 0;
+    padding-right: 0;
+}
 
 /* ===================== PORTFOLIO STYLES ===================== */
 
@@ -270,17 +277,13 @@ button {
 }
 
 .portfolio-item {
-    width: calc((100% - 2 * 24px) / 3);
+    width: calc((100% - 48px) / 3);
     row-gap: 10px;
     
 }
 
-.portfolio-second-title {
-    /* margin-left: 16px; */
-}
-
-.portfolio-txt {
-    /* margin-left: 16px; */
+.portfolio-container {
+    border: 1px solid var(--border-cl);
 }
 
 /* ===================== FOOTER STYLES ===================== */
@@ -290,9 +293,13 @@ button {
     padding: 100px 0;
 }
 
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
 .footer-txt {
     color: var(--cloud-cl);
     max-width: 264px;
-    margin-top: 16px;
-    margin-bottom: 0px;
+    margin-top: 0;
 }
