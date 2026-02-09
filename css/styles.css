@@ -134,7 +134,7 @@ button {
 }
 
 .logo-header {
-    margin-right: 76px
+    margin-right: 76px;
 }
 
 .page-navigation {
@@ -283,6 +283,7 @@ button {
 }
 
 .portfolio-container {
+    border-top: none;
     border: 1px solid var(--border-cl);
 }
 
